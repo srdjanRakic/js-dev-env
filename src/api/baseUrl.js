@@ -1,4 +1,4 @@
 export default function getBaseUrl() {
     const inDevelopment = window.location.hostname === 'localhost';
-    return inDevelopment ? 'htto://localhost:3001/' : '/';
+    return inDevelopment ? 'http://localhost:3001/' : '/';
 }
